@@ -1,37 +1,107 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
-using Terraria.DataStructures;
 using Terraria.ID;
+using Terraria.DataStructures;
 using Terraria.ModLoader;
+using SecurityChest.Common.GlobalTiles;
+using SecurityChest.Common;
+using SecurityChest.Helper;
 
 namespace SecurityChest
 {
     partial class SecurityChest
     {
+        internal enum MessageType : byte
+        {
+            ChestPlace,
+            ChestDestroy,
+            ChestOpen,
+            RequestPlayerPlaceChest,
+            RequestPlayerWhoApprovalToUse,
+            SetPrivate,
+            SetOnlyApproval,
+            SetEveryOne,
+            AddApprovalPerson,
+            RemoveApprovalPerson,
+            InitChestOwner
+        }
         public override void HandlePacket(BinaryReader reader, int whoAmI)
         {
-            if (Main.netMode == NetmodeID.Server)
-            {
-                int i = reader.ReadInt32();
-                int j = reader.ReadInt32();
-                int placingPlayerID = reader.ReadInt32();
-                ModPacket packet = GetPacket();
-                packet.Write("helllo");
-                packet.Send(ignoreClient:255);
+            MessageType msgType = (MessageType)reader.ReadByte();
 
-                Logger.Info($"(Client) Received placement data: Tile at ({i}, {j}) placed by player ID: {placingPlayerID}");
-            }
-            if (Main.netMode != NetmodeID.MultiplayerClient)
+            switch (msgType)
             {
-                string s = reader.ReadString();
-                Main.NewText("R F S" + s);
+                case MessageType.ChestPlace:
+                    NetHelper.PlaceChest_Receive(reader, whoAmI);
+                    break;
+                case MessageType.InitChestOwner:
+                    NetHelper.InitChestOwner_Receive(reader, whoAmI);
+                    break;
+                case MessageType.ChestDestroy:
+                    break;
+                case MessageType.ChestOpen:
+                    break;
+                case MessageType.RequestPlayerPlaceChest:
+                    break;
+                case MessageType.RequestPlayerWhoApprovalToUse:
+                    break;
+                case MessageType.SetPrivate:
+                    break;
+                case MessageType.SetOnlyApproval:
+                    break;
+                case MessageType.SetEveryOne:
+                    break;
+                case MessageType.AddApprovalPerson:
+                    break;
+                case MessageType.RemoveApprovalPerson:
+                    break;
+                default:
+                    break;
             }
-            base.HandlePacket(reader, whoAmI);
+            //base.HandlePacket(reader, whoAmI);
+        }
+        public static void SaveChestOwner(Point16 dimension, ulong player)
+        {
+            string path = Path.Combine(DATA_PATH, CHEST_OWNER);
+            Dictionary<Point16, ulong> data = LoadChestOwner();
+            data.Add(dimension, player);
+
+            File.WriteAllText(path, JsonConvert.SerializeObject(data));
+            Console.WriteLine(path);
+        }
+
+        public static Dictionary<Point16, ulong> LoadChestOwner()
+        {
+            Dictionary<Point16, ulong> data = [];
+            string path = Path.Combine(DATA_PATH, CHEST_OWNER);
+            if (File.Exists(path))
+            {
+                var temp = JsonConvert.DeserializeObject<Dictionary<string, ulong>>(File.ReadAllText(path));
+                foreach (var item in temp)
+                {
+                    string point = item.Key[1..^1].Replace(" ", "");
+                    string[] array = point.Split(',');
+                    short x = short.Parse(array[0]);
+                    short y = short.Parse(array[1]);
+                    data.Add(new(x, y), item.Value);
+
+                }
+            }
+            return data;
+        }
+        public static ulong FindChestOwner(Point16 dimension)
+        {
+            Dictionary<Point16, ulong> data = LoadChestOwner();
+            ulong steamID = 0;
+            data.TryGetValue(dimension, out steamID);
+            return steamID;
         }
     }
 }

@@ -1,4 +1,0 @@
-Main.clientUUID
-Player.chest
-Player.OpenChest
-Chest.UsingChest
