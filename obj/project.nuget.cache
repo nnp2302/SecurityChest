@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9JyW+NADBm+JDzYLKMExgn+utZ1vZ4x2cp4TynEavQq7uROCrQ+csTbW0fBorDW6Pklc5pe0+Rk57ZUC/ntYaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\SecurityChest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hoang\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
