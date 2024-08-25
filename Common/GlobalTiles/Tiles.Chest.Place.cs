@@ -16,16 +16,26 @@ namespace SecurityChest.Common.GlobalTiles
     {
         public override void PlaceInWorld(int i, int j, int type, Item item)
         {
-            //Nếu đặt một rương hoặc magic storage (nếu có) 
-            if (type == TileID.Containers
-                || type == TileID.Containers2
-                || (SecurityChest.MAGIC_STORAGE_EXIST
-                    && item.ModItem.Type == SecurityChest.MAGIC_STORAGE_HEART_TYPE
-                    )
-                )
+            try
             {
-                NetHelper.PlaceChest_Send((short)i, (short)j);
+                //Nếu đặt một rương hoặc magic storage (nếu có) 
+                if (type == TileID.Containers
+                    || type == TileID.Containers2
+                    || (SecurityChest.MAGIC_STORAGE_EXIST
+                        && item.ModItem.Type == SecurityChest.MAGIC_STORAGE_HEART_TYPE
+                        )
+                    )
+                {
+                    NetHelper.PlaceChest_Send((short)i, (short)j);
+                }
+
+
             }
+            catch (Exception e)
+            {
+
+            }
+
             base.PlaceInWorld(i, j, type, item);
         }
     }

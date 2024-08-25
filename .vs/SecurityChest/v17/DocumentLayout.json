@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globalplayer\\securitychestplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globalplayer\\securitychestplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globaltiles\\tiles.chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globaltiles\\tiles.chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globalplayer\\securitychestplayer.preupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globalplayer\\securitychestplayer.preupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\securitychest.constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:securitychest.constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globalplayer\\securitychestplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globalplayer\\securitychestplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\debuglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\debuglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globalplayer\\securitychestplayer.initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globalplayer\\securitychestplayer.initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\build.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globaltiles\\tiles.chest.place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globaltiles\\tiles.chest.place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\globaltiles\\tiles.chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\globaltiles\\tiles.chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\common\\debuglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:common\\debuglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\securitychest.constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:securitychest.constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\securitychest.networking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:securitychest.networking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\securitychest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:securitychest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|c:\\users\\hoang\\onedrive - ho chi minh city university of foreign languages and information technology - huflit\\documents\\my games\\terraria\\tmodloader\\modsources\\securitychest\\helper\\nethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5127CCA0-EC5B-4F1E-9426-5F46FF6D1E7B}|SecurityChest.csproj|solutionrelative:helper\\nethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,6 +75,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "description.txt",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\description.txt",
+              "RelativeDocumentMoniker": "description.txt",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\description.txt",
+              "RelativeToolTip": "description.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-16T13:12:12.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "build.txt",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\build.txt",
+              "RelativeDocumentMoniker": "build.txt",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\build.txt",
+              "RelativeToolTip": "build.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-16T13:12:04.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecurityChest.Networking.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\SecurityChest.Networking.cs",
+              "RelativeDocumentMoniker": "SecurityChest.Networking.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\SecurityChest.Networking.cs",
+              "RelativeToolTip": "SecurityChest.Networking.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwEMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:03:39.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurityChestPlayer.Initial.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.Initial.cs",
+              "RelativeDocumentMoniker": "Common\\GlobalPlayer\\SecurityChestPlayer.Initial.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.Initial.cs",
+              "RelativeToolTip": "Common\\GlobalPlayer\\SecurityChestPlayer.Initial.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:03:00.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NetHelper.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Helper\\NetHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\NetHelper.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Helper\\NetHelper.cs",
+              "RelativeToolTip": "Helper\\NetHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:02:47.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SecurityChest.Constant.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\SecurityChest.Constant.cs",
               "RelativeDocumentMoniker": "SecurityChest.Constant.cs",
@@ -66,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DebugLog.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\DebugLog.cs",
               "RelativeDocumentMoniker": "Common\\DebugLog.cs",
@@ -84,13 +166,13 @@
               "RelativeDocumentMoniker": "Common\\GlobalTiles\\Tiles.Chest.Place.cs",
               "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalTiles\\Tiles.Chest.Place.cs",
               "RelativeToolTip": "Common\\GlobalTiles\\Tiles.Chest.Place.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAwAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T07:59:52.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SecurityChest.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\SecurityChest.cs",
               "RelativeDocumentMoniker": "SecurityChest.cs",
@@ -102,41 +184,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SecurityChestPlayer.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.cs",
               "RelativeDocumentMoniker": "Common\\GlobalPlayer\\SecurityChestPlayer.cs",
               "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.cs",
               "RelativeToolTip": "Common\\GlobalPlayer\\SecurityChestPlayer.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T07:14:10.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Tiles.Chest.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalTiles\\Tiles.Chest.cs",
               "RelativeDocumentMoniker": "Common\\GlobalTiles\\Tiles.Chest.cs",
               "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalTiles\\Tiles.Chest.cs",
               "RelativeToolTip": "Common\\GlobalTiles\\Tiles.Chest.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T07:12:46.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T07:12:46.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SecurityChestPlayer.PreUpdate.cs",
               "DocumentMoniker": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.PreUpdate.cs",
               "RelativeDocumentMoniker": "Common\\GlobalPlayer\\SecurityChestPlayer.PreUpdate.cs",
               "ToolTip": "C:\\Users\\hoang\\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SecurityChest\\Common\\GlobalPlayer\\SecurityChestPlayer.PreUpdate.cs",
               "RelativeToolTip": "Common\\GlobalPlayer\\SecurityChestPlayer.PreUpdate.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwCIAAAA0AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T06:59:48.662Z"
+              "WhenOpened": "2024-08-16T06:59:48.662Z",
+              "EditorCaption": ""
             }
           ]
         },

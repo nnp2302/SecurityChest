@@ -69,12 +69,27 @@ namespace SecurityChest
         }
         public static void SaveChestOwner(Point16 dimension, ulong player)
         {
-            string path = Path.Combine(DATA_PATH, CHEST_OWNER);
-            Dictionary<Point16, ulong> data = LoadChestOwner();
-            data.Add(dimension, player);
+            try
+            {
+                string path = Path.Combine(DATA_PATH, CHEST_OWNER);
+                Dictionary<Point16, ulong> data = LoadChestOwner();
+                ulong temp;
+                if (data.TryGetValue(dimension, out temp))
+                {
+                    data[dimension] = player;
+                }
+                else
+                {
+                    data.Add(dimension, player);
+                }
 
-            File.WriteAllText(path, JsonConvert.SerializeObject(data));
-            Console.WriteLine(path);
+                File.WriteAllText(path, JsonConvert.SerializeObject(data));
+            }
+            catch (Exception)
+            {
+
+            }
+
         }
 
         public static Dictionary<Point16, ulong> LoadChestOwner()

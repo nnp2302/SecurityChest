@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecurityChest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+189c64943ab815a9b3ff6a49f29c51a935bc5b5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecurityChest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecurityChest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
